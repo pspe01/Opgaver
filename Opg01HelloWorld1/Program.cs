@@ -11,6 +11,8 @@ namespace Opg01HelloWorld1
        
         static void Main(string[] args)
         {
+
+            //hjaksfhdgka 
             Console.WriteLine("Indtast navn: ");
             string navn = Console.ReadLine();
             Console.WriteLine("Velkommen " + navn.ToUpper());
