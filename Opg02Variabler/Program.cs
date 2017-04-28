@@ -21,14 +21,16 @@ namespace Opg02Variabler
 
             double kommaTal = 12.5;
             Console.WriteLine(kommaTal);
+
             kommaTal++;
             Console.WriteLine(kommaTal);
+
             kommaTal--;
             Console.WriteLine(kommaTal);
-            kommaTal *= 2;
 
+            kommaTal *= 6;
             Console.WriteLine(kommaTal);
-           // Console.ReadKey();
+            // Console.ReadKey();
 
             //Enum
             FilTyper ft = FilTyper.csv;
@@ -39,7 +41,7 @@ namespace Opg02Variabler
             //DateTime
 
             DateTime pspDatoTid = DateTime.Now;
-            
+
             Console.WriteLine(pspDatoTid.ToString("D"));
             Console.WriteLine(pspDatoTid.ToString("O"));
             //Console.ReadKey();
@@ -70,6 +72,6 @@ namespace Opg02Variabler
         public int Id;
         public String Navn;
 
-        
+
     }
 }
