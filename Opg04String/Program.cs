@@ -21,12 +21,13 @@ namespace Opg04String
             samletNavn = fornavn + " " + efternavn;
             navnStort = samletNavn.ToUpper();
             navnLille = samletNavn.ToLower();
-            navndel = samletNavn.Substring(6, 4);
+            navndel = samletNavn.Substring(6, 3);
             string[] navnsplit = samletNavn.Split(' ');
 
             Console.WriteLine(samletNavn);
             Console.WriteLine(navnStort);
             Console.WriteLine(navnLille);
+            Console.WriteLine(navndel);
             
 
             foreach (var item in navnsplit)
