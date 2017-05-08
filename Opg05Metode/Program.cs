@@ -69,14 +69,14 @@ namespace Opg05Metode
             LønBeregning l;
             l.sum = 0;
 
-            //for (var i = 0; i < løntal.Length ; i++)
-            //{
-            //    l.sum += løntal[i];
-            //}
-            foreach (var item in løntal)
+            for (var i = 0; i < løntal.Length; i++)
             {
                 l.sum += løntal[i];
             }
+            //foreach (var item in løntal)
+            //{
+            //    l.sum += løntal[item];
+            //}
             l.gennemsnit = l.sum / løntal.Length;
            
             Array.Sort(løntal);
