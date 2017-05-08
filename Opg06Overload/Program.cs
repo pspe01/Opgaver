@@ -32,7 +32,6 @@ namespace Opg06Overload
         {
             return Beregn(a,b,c) + d;
 
-
         }
     }
 }

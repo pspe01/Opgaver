@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg05Metode", "Opg05Metode\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg06Overload", "Opg06Overload\Opg06Overload.csproj", "{4CA03698-0202-4580-AC29-9DAA286829F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg07Klasser", "Opg07Klasser\Opg07Klasser.csproj", "{CBEAB6BF-BD75-4455-85D4-B845B61A5173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4CA03698-0202-4580-AC29-9DAA286829F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CA03698-0202-4580-AC29-9DAA286829F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CA03698-0202-4580-AC29-9DAA286829F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEAB6BF-BD75-4455-85D4-B845B61A5173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEAB6BF-BD75-4455-85D4-B845B61A5173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEAB6BF-BD75-4455-85D4-B845B61A5173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEAB6BF-BD75-4455-85D4-B845B61A5173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
