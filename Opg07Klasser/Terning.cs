@@ -9,6 +9,7 @@ namespace Opg07Klasser
     class Terning
     {
         public int Værdi;
+        private bool snyd;
 
         public Terning()
         {
