@@ -18,6 +18,18 @@ namespace Opg08Egenskaber
 
             Double pMoms = v1.PrisMedMoms();
             Console.WriteLine(pMoms);
+
+            Person p1 = new Person("Palle", "Pedersen");
+
+
+            Console.WriteLine(p1.FuldtNavn());
+
+            Console.WriteLine(p1.Fornavn+" "+p1.Efternavn);
+
+            p1.Efternavn = "Ha";
+            Console.WriteLine(p1.FuldtNavn());
+            Console.WriteLine(p1.Fornavn + " " + p1.Efternavn);
+
         }
     }
 }
