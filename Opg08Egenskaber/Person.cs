@@ -37,8 +37,25 @@ namespace Opg08Egenskaber
                 
             }
         }
+        //private string fuldtNavn;
 
-        public string FuldtNavn()
+        //public string FuldtNavn
+        //{
+        //    get => this.Fornavn + " " + this.Efternavn;
+        //    set { fuldtNavn = value; }
+        //}
+
+        private string fuldtnavn;
+
+        public string FuldtNavn
+        {
+            get { return this.Fornavn+" "+this.Efternavn; }
+            set { fuldtnavn = value; }
+        }
+
+
+
+        public string FuldtNavnMetode()
         {
             return this.Fornavn + " " + this.Efternavn;
         }

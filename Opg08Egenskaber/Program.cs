@@ -22,12 +22,12 @@ namespace Opg08Egenskaber
             Person p1 = new Person("Palle", "Pedersen");
 
 
-            Console.WriteLine(p1.FuldtNavn());
+            Console.WriteLine(p1.FuldtNavnMetode());
 
             Console.WriteLine(p1.Fornavn+" "+p1.Efternavn);
 
             p1.Efternavn = "Ha";
-            Console.WriteLine(p1.FuldtNavn());
+            Console.WriteLine(p1.FuldtNavnMetode());
             Console.WriteLine(p1.Fornavn + " " + p1.Efternavn);
 
         }
