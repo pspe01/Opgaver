@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{426F8584-CF62-4A98-89CC-131A10F10F3B}</ProjectGuid>
+    <ProjectGuid>{2CD2BD0B-BDEE-4403-9DD6-B818280A0468}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Opg08Egenskaber</RootNamespace>
-    <AssemblyName>Opg08Egenskaber</AssemblyName>
+    <RootNamespace>Opg09Nedarvning</RootNamespace>
+    <AssemblyName>Opg09Nedarvning</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Elev.cs" />
-    <Compile Include="Instruktør.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="LudoTerning.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vare.cs" />
+    <Compile Include="Terning.cs" />
+    <Compile Include="Tænkeboks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

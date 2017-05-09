@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg07Klasser", "Opg07Klasse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg08Egenskaber", "Opg08Egenskaber\Opg08Egenskaber.csproj", "{426F8584-CF62-4A98-89CC-131A10F10F3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg09Nedarvning", "Opg09Nedarvning\Opg09Nedarvning.csproj", "{2CD2BD0B-BDEE-4403-9DD6-B818280A0468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{426F8584-CF62-4A98-89CC-131A10F10F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{426F8584-CF62-4A98-89CC-131A10F10F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{426F8584-CF62-4A98-89CC-131A10F10F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD2BD0B-BDEE-4403-9DD6-B818280A0468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD2BD0B-BDEE-4403-9DD6-B818280A0468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD2BD0B-BDEE-4403-9DD6-B818280A0468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD2BD0B-BDEE-4403-9DD6-B818280A0468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

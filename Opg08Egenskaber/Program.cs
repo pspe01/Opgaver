@@ -30,6 +30,18 @@ namespace Opg08Egenskaber
             Console.WriteLine(p1.FuldtNavnMetode());
             Console.WriteLine(p1.Fornavn + " " + p1.Efternavn);
 
+            Instruktør i1 = new Instruktør() {Fornavn="Knud",Efternavn="Poulsen",NøgleId=23 };
+           
+            Console.WriteLine("Instruktør");
+            Console.WriteLine(i1.Fornavn + " " + i1.Efternavn + " " + i1.NøgleId);
+
+            Elev e1 = new Elev() { Fornavn="Hans", Efternavn="Hansen",Klasselokale="Lille klasse"};
+            Console.WriteLine("Elev");
+            Console.WriteLine(e1.Fornavn + " " + e1.Efternavn + " " + e1.Klasselokale);
+
+
+
+
         }
     }
 }
