@@ -13,6 +13,7 @@ namespace Opg12Interface
         private static Logger log = LogManager.GetCurrentClassLogger();
 
         public string Navn { get; set; }
+      
 
         public void Gem()
         {
