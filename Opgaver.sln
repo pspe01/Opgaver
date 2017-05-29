@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg10Fejlhåndtering", "Opg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg11Log", "Opg11Log\Opg11Log.csproj", "{A58FCCF1-53F5-47ED-9330-51578516BA62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg12Interface", "Opg12Interface\Opg12Interface.csproj", "{A21CB8C9-BF7A-49B0-9E00-965CB0FCE264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{A58FCCF1-53F5-47ED-9330-51578516BA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A58FCCF1-53F5-47ED-9330-51578516BA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A58FCCF1-53F5-47ED-9330-51578516BA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21CB8C9-BF7A-49B0-9E00-965CB0FCE264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21CB8C9-BF7A-49B0-9E00-965CB0FCE264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21CB8C9-BF7A-49B0-9E00-965CB0FCE264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21CB8C9-BF7A-49B0-9E00-965CB0FCE264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
